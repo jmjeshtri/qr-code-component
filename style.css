@@ -15,7 +15,7 @@ body {
   flex-direction: column;
 }
 
-#card {
+main {
   border-radius: 20px;
   background-color: hsl(0, 0%, 100%);
   display: flex;
@@ -24,6 +24,7 @@ body {
   width: 330px;
   height: 500px;
   flex-direction: column;
+  margin: auto;
 }
 
 img {
@@ -34,7 +35,6 @@ img {
 
 h2 {
   font-weight: 700;
-  font-size: 24px;
   color: hsl(218, 44%, 22%);
 }
 
@@ -43,19 +43,19 @@ h2 {
   width: 280px;
 }
 
-p{
+p {
   display: inherit;
   font-size: 15px;
   color: hsl(220, 15%, 55%);
   font-weight: 400;
   margin-left: 10px;
   margin-right: 10px;
-
-  /* 
-  margin: top/right/bottom/left
-  padding: top/right/bottom/left */
 }
 
-.attribution {
+footer {
   padding-top: 20px;
 }
+
+/* 
+  margin: top/right/bottom/left
+  padding: top/right/bottom/left */
