@@ -11,8 +11,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 700px;
+  height: 500px;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 main {
@@ -22,7 +23,7 @@ main {
   justify-content: center;
   align-items: center;
   width: 330px;
-  height: 500px;
+  height: 550px;
   flex-direction: column;
   margin: auto;
 }
@@ -38,9 +39,10 @@ h2 {
   color: hsl(218, 44%, 22%);
 }
 
-#text {
+.text {
   text-align: center;
-  width: 280px;
+  /* width: 280px; */
+  padding: 20px;
 }
 
 p {
