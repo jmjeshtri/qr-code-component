@@ -34,13 +34,13 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
 ### What I learned
 
 ```html
-<div id="card">
-    <img src="images/image-qr-code.png" alt="" width="300px" height="300px">
+<main>
+    <img src="images/image-qr-code.png" alt="QR-Code">
     <div id="text">
       <h2>Improve your front-end skills by building projects</h2>
       <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
     </div>
-  </div>
+  </main>
 ```
 **Note: Don't put everything into divs, keep it as simple as you can**
 
