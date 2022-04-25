@@ -23,7 +23,7 @@ main {
   justify-content: center;
   align-items: center;
   width: 330px;
-  height: 550px;
+  height: 500px;
   flex-direction: column;
   margin: auto;
 }
@@ -34,15 +34,16 @@ img {
   border-radius: 15px;
 }
 
-h2 {
+h1 {
   font-weight: 700;
+  font-size: 24px;
   color: hsl(218, 44%, 22%);
 }
 
 .text {
   text-align: center;
-  /* width: 280px; */
-  padding: 20px;
+  width: 280px;
+  /* padding: 20px; */
 }
 
 p {
